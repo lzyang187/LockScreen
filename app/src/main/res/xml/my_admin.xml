@@ -15,4 +15,5 @@
         <force-lock />
         <!--<wipe-data />-->
     </uses-policies>
+
 </device-admin>

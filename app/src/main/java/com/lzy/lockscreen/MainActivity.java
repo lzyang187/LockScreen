@@ -5,7 +5,6 @@ import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (RESULT_OK == resultCode) {
                 systemLock();
             } else if (RESULT_CANCELED == resultCode) {
-                Log.e("lzy", "用户拒绝激活");
+                //用户拒绝激活
             }
         }
     }
